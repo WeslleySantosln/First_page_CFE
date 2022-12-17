@@ -154,7 +154,11 @@ main{
     transition: 0.8s;    
 }
 
-
+footer{
+    background-color: darkgray;
+    padding: 1%;    
+    text-align: center;
+}
 
 
 
