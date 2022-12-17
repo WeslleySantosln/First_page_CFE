@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial, sans-serif;
+    background-image: url(../imagens/dados.jpg);  
+    margin: 0;    
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+
+}
+
+
+
+#navHeader ul{
+    background-color: rgba(132, 132, 132, 0.235);
+    text-align: center;
+    
+}
+
+#navHeader ul li{
+    display: inline;  
+      
+}
+
+#navHeader ul li a{ 
+    color: aliceblue;
+    display: inline-block;
+    text-decoration: none;
+    font-family: verdana, arial, sans-serif;
+    text-shadow: 1px 1px 1px darkgray;
+    padding: 10px;
+    padding-inline: 6%;
+    transition: .6s;
+    border-color: #E0FFFF;
+    border: #E0FFFF;
+    border-radius: 3%;
+    border-width: 10%;
+    
+}
+
+#navHeader ul li a:hover{
+    background-color: darkgray;
+               
+}
+
+
+
+
+.pHeader{
+    background-image: url(../imagens/note.jpg);
+    height: 500px;
+    background-position: center right;
+    background-size: cover;
+    max-width: 100%;  
+    background-attachment: fixed;
+      
+}
+
+
+
+.divHead{
+    text-align: center;
+    color: #E0FFFF;
+    margin-top: 100px;
+
+}
+
+.divHead h1{
+    font-variant: small-caps;
+    font-size: 46px;
+    text-shadow: 3px 3px 2px #333;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.content_section_a {
+    
+    margin-top: 8%;
+    text-align: center;
+    
+}
+
+.content_section_a div{
+    color:black;
+    display:inline-block;
+    padding-inline: 5%;
+    
+        
+}
+
+.content_section_t {
+    padding: 15px;
+    margin-top: 15px;
+        
+}
+
+.imgTa{
+    width: 120px;
+    
+}
+
+.imgTb{
+    width: 130px;
+    
+}
+.imgTc{
+    width: 160px;
+       
+}
+
+
+
+.content_section_t article ul li{
+    display: inline;
+
+}
+
+.content_section_t article header{
+    text-align: center;
+    margin-bottom: 20px;
+    
+    
+}
+
+.content_section_t article ul{   
+    text-align: center;
+    margin-bottom: 10px;
+        
+}
+
+.content_section_t article ul li a{   
+    padding: 10px;
+    padding-inline: 20px;    
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 110%;
+    background-color: rgba(132, 132, 132, 0.235);
+   
+}
+
+
+.content_section_t article ul li a:hover{
+    background-color:darkgray;
+    transition: 0.8s;    
+}
+
+
+
+
+
+
